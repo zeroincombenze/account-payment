@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/OCA/account-payment.svg?branch=7.0)](https://travis-ci.org/OCA/account-payment)
-[![Coverage Status](https://coveralls.io/repos/OCA/account-payment/badge.png?branch=7.0)](https://coveralls.io/r/OCA/account-payment?branch=7.0)
+[![Build Status](https://travis-ci.org/zeroincombenze/account-payment.svg?branch=7.0)](https://travis-ci.org/zeroincombenze/account-payment)
+[![Coverage Status](https://coveralls.io/repos/zeroincombenze/account-payment/badge.png?branch=7.0)](https://coveralls.io/r/zeroincombenze/account-payment?branch=7.0)
 
 OpenERP account payment modules
 ===============================
