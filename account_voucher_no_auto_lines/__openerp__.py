@@ -42,6 +42,6 @@ Contributors
         'account_voucher',
     ],
     'data': ['account_voucher_view.xml'],
-    'installable': True,
+    'installable': False,
     'auto_install': False,
 }
