@@ -30,9 +30,9 @@ class account_voucher_line(orm.Model):
         move_line = line_pool.browse(cr, uid, move_line_id, context)
 
         return (
-            move_line.invoice
-            and move_line.invoice.origin
-            or ''
+            move_line.invoice and
+            move_line.invoice.origin or
+            ''
         )
 
     def _get_document_source(

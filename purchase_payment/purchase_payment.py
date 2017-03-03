@@ -19,7 +19,7 @@
 #
 #
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 __author__ = "Borja López Soilán (Pexego) <borjals@pexego.es>"
 
@@ -113,6 +113,7 @@ class purchase_order(osv.osv):
             self.pool.get('account.invoice').write(cr, uid, [invoice_id], vals)
         return invoice_id
 
+
 purchase_order()
 
 
@@ -150,6 +151,7 @@ class stock_picking(osv.osv):
 
         return res
 
+
 stock_picking()
 
 
@@ -171,6 +173,7 @@ class res_partner(osv.osv):
             help="This payment term will be used instead of the default one "
                  "for the current partner on purchases"),
     }
+
 
 res_partner()
 
@@ -232,5 +235,6 @@ class account_invoice(osv.osv):
                 result['value']['date_due'] = False
 
         return result
+
 
 account_invoice()

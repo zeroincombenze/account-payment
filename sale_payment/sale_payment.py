@@ -20,7 +20,7 @@
 #
 #
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 
 class sale_order(osv.osv):
@@ -84,6 +84,7 @@ class sale_order(osv.osv):
             }, context=context)
         return inv_id
 
+
 sale_order()
 
 
@@ -119,5 +120,6 @@ class stock_picking(osv.osv):
                         cr, uid, [invoice_id], vals, context=context)
 
         return res
+
 
 stock_picking()

@@ -21,7 +21,7 @@
 import mx.DateTime
 from mx.DateTime import RelativeDateTime
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 
 class account_payment_term(osv.osv):
@@ -91,6 +91,7 @@ class account_payment_term(osv.osv):
                 new_date = date + RelativeDateTime(day=day, months=1)
             new_result.append((new_date.strftime('%Y-%m-%d'), line[1]))
         return new_result
+
 
 account_payment_term()
 

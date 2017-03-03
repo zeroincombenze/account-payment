@@ -37,8 +37,8 @@
 #
 #
 
-from osv import fields, osv
-from tools.translate import _
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
 
 import time
 
@@ -63,6 +63,7 @@ class account_bank_statement_split_line_wizard(osv.osv_memory):
         return {
             'type': 'ir.actions.act_window_close',
         }
+
 
 account_bank_statement_split_line_wizard()
 
@@ -774,6 +775,7 @@ class account_bank_statement_line(osv.osv):
             return payment_order
         return None
 
+
 account_bank_statement_line()
 
 
@@ -809,6 +811,7 @@ class account_bank_statement_line_data(osv.osv):
         for record in self.browse(cr, uid, ids, context):
             data[record.key] = record.value
         return data
+
 
 account_bank_statement_line_data()
 
@@ -868,6 +871,7 @@ class account_bank_statement_line_rule(osv.osv):
     _constraints = [
         (_check_company, 'Company Check Error.', ['company_id', 'account_id'])
     ]
+
 
 account_bank_statement_line_rule()
 
