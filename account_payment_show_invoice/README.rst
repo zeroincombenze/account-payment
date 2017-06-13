@@ -1,36 +1,26 @@
-
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
-    :alt: License: AGPL-3
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
 
-==================================
-Account Check Printing Report Base
-==================================
+============================
+Account Payment Show Invoice
+============================
 
-This module provides the basic framework for check printing, and a sample
-layout.
+This module extends the tree view of payments to show the paid invoices
+related to the payments using the vendor reference by default.
 
-
-Installation
-============
-In order to install this module you must first install also the module
-'report_paper_wkhtmltopdf_params', available in
-https://github.com/OCA/server-tools
-
-Configuration
-=============
-
-Go to 'Settings / Users / Companies' and assign the desired check format.
-This module proposes a basic layout, but other modues such as
-"account_check_printing_report_dlt103" provide formats adjusted to known
-check formats such as DLT103.
-
+.. image:: account_payment_show_invoice/static/description/payments_view.png
+   :alt: payment view
+   :width: 600 px
 
 Usage
 =====
 
-* Go to 'Invoicing / Purchases / Payments'. Select one of the payments with
-  type 'Check' and print the check.
+To use this module, you need to:
 
+#. Go to 'Invoicing > Purchases > Payments' or to 'Invoicing > Sales >
+   Payments'
+#. There you can see a new column *Invoices*.
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
@@ -40,11 +30,9 @@ Bug Tracker
 ===========
 
 Bugs are tracked on `GitHub Issues
-<https://github.com/OCA/account-payment/issues>`_. In case of
-trouble, please
+<https://github.com/OCA/account-payment/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
-help us smashing it by providing a detailed and welcomed feedback.
-
+help us smash it by providing detailed and welcomed feedback.
 
 Credits
 =======
@@ -57,9 +45,7 @@ Images
 Contributors
 ------------
 
-* Jordi Ballester Alomar <jordi.ballester@eficent.com>
-* Lois Rilo Antelo <lois.rilo@eficent.com>
-
+* Lois Rilo <lois.rilo@eficent.com>
 
 Maintainer
 ----------

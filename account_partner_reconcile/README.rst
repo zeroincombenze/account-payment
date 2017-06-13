@@ -1,35 +1,19 @@
-
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
-    :alt: License: AGPL-3
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
 
-====================================
-Account Check Printing Report DLT103
-====================================
+=========================
+Account Partner Reconcile
+=========================
 
-This module allows you to print DLT103 lined checks.
-
-See https://www.google.es/search?q=dlt103
-
-
-Installation
-============
-In order to install this module you must first install also the module
-'report_paper_wkhtmltopdf_params', available in
-https://github.com/OCA/server-tools
-
+This module adds a button "Match Payments" in the customer & suppliers form
+view to allow to start the matching of invoices & payments for that partner.
 
 Configuration
 =============
 
-Go to 'Settings / Users / Companies' and assign the check format 'DLT103'.
-
-
-Usage
-=====
-
-* Go to 'Invoicing / Purchases / Payments'. Select one of the payments with
-  type 'Check' and print the check.
-
+The button is visible only to users that belong to the accounting groups
+"Accountant" or "Adviser".
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
@@ -39,8 +23,7 @@ Bug Tracker
 ===========
 
 Bugs are tracked on `GitHub Issues
-<https://github.com/OCA/account-payment/issues>`_. In case of
-trouble, please
+<https://github.com/OCA/account-payment/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
 help us smashing it by providing a detailed and welcomed feedback.
 
@@ -48,17 +31,10 @@ help us smashing it by providing a detailed and welcomed feedback.
 Credits
 =======
 
-Images
-------
-
-* Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
-
 Contributors
 ------------
 
-* Jordi Ballester Alomar <jordi.ballester@eficent.com>
-* Lois Rilo Antelo <lois.rilo@eficent.com>
-
+* Jordi Ballester <jordi.ballester@eficent.com>
 
 Maintainer
 ----------
