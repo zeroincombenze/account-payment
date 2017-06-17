@@ -3,13 +3,14 @@
 # * account_payment_return
 # 
 # Translators:
+# Rudolf Schnapka <rs@techno-flex.de>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: account-payment (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 06:22+0000\n"
-"PO-Revision-Date: 2016-11-25 14:55+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"POT-Creation-Date: 2017-04-18 00:39+0000\n"
+"PO-Revision-Date: 2017-04-19 11:44+0000\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: German (http://www.transifex.com/oca/OCA-account-payment-8-0/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +80,7 @@ msgstr "Kunde"
 #: model:ir.ui.menu,name:account_payment_return.payment_return_menu
 #: view:payment.return:account_payment_return.payment_return_tree_view
 msgid "Customer Payment Returns"
-msgstr ""
+msgstr "Kundenrückzahlungen"
 
 #. module: account_payment_return
 #: help:payment.return,message_last_post:0
@@ -112,14 +113,14 @@ msgstr "Followers"
 #. module: account_payment_return
 #: field:payment.return,period_id:0
 msgid "Forced period"
-msgstr ""
+msgstr "Erzwungene Periode"
 
 #. module: account_payment_return
 #: help:payment.return,message_summary:0
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr ""
+msgstr "Beinhaltet die Dialogzusammenfassung (Anzahl Mitteilungen, ...). Diese Zusammenfassung liegt in HTML vor, um direkt in Kanban-Ansichten verwendet werden zu können."
 
 #. module: account_payment_return
 #: field:payment.return,id:0 field:payment.return.line,id:0
@@ -130,7 +131,7 @@ msgstr "ID"
 #. module: account_payment_return
 #: help:payment.return,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "Wenn angehakt, erfordern neue Mitteilungen Ihre Aufmerksamkeit."
 
 #. module: account_payment_return
 #: selection:payment.return,state:0
@@ -148,10 +149,10 @@ msgid "Invoice has been included on a payment that has been returned later."
 msgstr "Rechnung hat eine Zahlung die später zurück gebucht wurde."
 
 #. module: account_payment_return
-#: code:addons/account_payment_return/models/payment_return.py:275
+#: code:addons/account_payment_return/models/payment_return.py:286
 #, python-format
 msgid "Invoice: %s"
-msgstr ""
+msgstr "Rechnung: %s"
 
 #. module: account_payment_return
 #: view:account.invoice:account_payment_return.view_account_invoice_filter_return
@@ -161,12 +162,12 @@ msgstr "Rechnungen deren Zahlung zurück gebucht wurde."
 #. module: account_payment_return
 #: field:payment.return,message_is_follower:0
 msgid "Is a Follower"
-msgstr ""
+msgstr "Ist Follower"
 
 #. module: account_payment_return
 #: field:payment.return,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Datum letzte Nachricht"
 
 #. module: account_payment_return
 #: field:payment.return,__last_update:0
@@ -190,7 +191,7 @@ msgstr "Zuletzt aktualisiert am"
 #. module: account_payment_return
 #: field:payment.return,line_ids:0
 msgid "Line ids"
-msgstr ""
+msgstr "Positionsnummern"
 
 #. module: account_payment_return
 #: view:payment.return:account_payment_return.payment_return_form_view
@@ -200,29 +201,29 @@ msgstr "Zeilen"
 #. module: account_payment_return
 #: view:payment.return:account_payment_return.payment_return_form_view
 msgid "Match"
-msgstr ""
+msgstr "Übereinstimmung"
 
 #. module: account_payment_return
 #: field:payment.return,message_ids:0
 msgid "Messages"
-msgstr ""
+msgstr "Nachrichten"
 
 #. module: account_payment_return
 #: help:payment.return,message_ids:0
 msgid "Messages and communication history"
-msgstr ""
+msgstr "Meldungs- und Kommunikationsverlauf"
 
 #. module: account_payment_return
-#: code:addons/account_payment_return/models/payment_return.py:296
+#: code:addons/account_payment_return/models/payment_return.py:307
 #, python-format
 msgid "Move lines: %s"
-msgstr ""
+msgstr "Buchungspositionen: %s"
 
 #. module: account_payment_return
-#: code:addons/account_payment_return/models/payment_return.py:319
+#: code:addons/account_payment_return/models/payment_return.py:330
 #, python-format
 msgid "Move: %s"
-msgstr ""
+msgstr "Buchung: %s"
 
 #. module: account_payment_return
 #: field:payment.return.line,partner_name:0
@@ -233,12 +234,12 @@ msgstr "Kunde"
 #: code:addons/account_payment_return/models/payment_return.py:68
 #, python-format
 msgid "Payment Line: %s (%s) in Payment Return: %s"
-msgstr ""
+msgstr "Zahlungsposition: %s (%s) in Rückzahlung: %s"
 
 #. module: account_payment_return
 #: field:payment.return.line,move_line_ids:0
 msgid "Payment Reference"
-msgstr ""
+msgstr "Zahlungsreferenz"
 
 #. module: account_payment_return
 #: model:ir.model,name:account_payment_return.model_payment_return
@@ -256,23 +257,22 @@ msgstr "Rückbuchungszeilen"
 #. module: account_payment_return
 #: model:ir.model,name:account_payment_return.model_payment_return_reason
 msgid "Payment return reason"
-msgstr ""
+msgstr "Rückzahlungsgrund"
 
 #. module: account_payment_return
 #: field:account.invoice,returned_payment:0
 msgid "Payment returned"
-msgstr ""
+msgstr "Zahlung erstattet"
 
 #. module: account_payment_return
-#: help:payment.return.line,concept:0 help:payment.return.line,date:0
-#: help:payment.return.line,partner_name:0
+#: help:payment.return.line,concept:0 help:payment.return.line,partner_name:0
 msgid "Read from imported file. Only for reference."
 msgstr "Feld für Import, nur zur Information."
 
 #. module: account_payment_return
 #: field:payment.return.reason,name:0
 msgid "Reason"
-msgstr ""
+msgstr "Grund"
 
 #. module: account_payment_return
 #: field:payment.return.line,reconcile_id:0
@@ -282,7 +282,7 @@ msgstr "Ausgleichen"
 #. module: account_payment_return
 #: field:payment.return,name:0 field:payment.return.line,reference:0
 msgid "Reference"
-msgstr ""
+msgstr "Referenz"
 
 #. module: account_payment_return
 #: help:payment.return.line,reference:0
@@ -300,7 +300,7 @@ msgid "Reference to the reconcile object."
 msgstr "verbundenes Buchungsobjekt"
 
 #. module: account_payment_return
-#: code:addons/account_payment_return/models/payment_return.py:134
+#: code:addons/account_payment_return/models/payment_return.py:132
 #, python-format
 msgid "Return %s"
 msgstr "Rücklastschrift %s"
@@ -352,7 +352,7 @@ msgid "You can not remove a payment return if state is 'Done'"
 msgstr ""
 
 #. module: account_payment_return
-#: code:addons/account_payment_return/models/payment_return.py:129
+#: code:addons/account_payment_return/models/payment_return.py:146
 #, python-format
 msgid "You must input all moves references in the payment return."
 msgstr ""
