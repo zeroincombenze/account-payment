@@ -19,6 +19,17 @@ This repository hosts modules for handling requirements related to payment topic
 * Include payment types at partner, sales and purchases levels.
 * Etc.
 
+
+
+[![it](http://www.shs-av.com/wp-content/it_IT.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
+Moduli Odoo Italia
+
+Differenze rispetto localizzazione ufficiale Odoo/OCA:
+
+- Corretto errore "import openerp.addons.decimal_precision" https://github.com/OCA/OCB/issues/629
+
+
 [//]: # (copyright)
 
 ----
