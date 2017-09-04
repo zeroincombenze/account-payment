@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 ================================================================================================
 ================================================================================================
 
@@ -30,23 +30,23 @@ You can find complementary modules for handling bank payment related tasks on:
 
 Available addons
 ----------------
-addon | version | summary
---- | --- | ---
-[account_due_list](account_due_list/) | 10.0.1.0.0 | Payments Due list
-[account_due_list_aging_comments](account_due_list_aging_comments/) | 10.0.1.0.0 | Payments Due list aging comments
-[account_due_list_payment_mode](account_due_list_payment_mode/) | 10.0.1.0.0 | Payment due list with payment mode
-[account_payment_batch_process](account_payment_batch_process/) | 10.0.1.0.0 | Process Payments in Batch
-[account_payment_credit_card](account_payment_credit_card/) | 10.0.1.0.0 | Add support for credit card payments
-[account_payment_return](account_payment_return/) | 10.0.1.1.0 | Manage the return of your payments
-[account_payment_return_import](account_payment_return_import/) | 10.0.1.0.0 | This module adds a generic wizard to import payment returnfile formats. Is only the base to be extended by anothermodules
-[account_payment_return_import_sepa_pain](account_payment_return_import_sepa_pain/) | 10.0.1.0.0 | Module to import SEPA Direct Debit Unpaid Report File Format PAIN.002.001.03
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[account_due_list](account_due_list/) | 10.0.1.0.0 | :repeat: | Payments Due list
+[account_due_list_aging_comments](account_due_list_aging_comments/) | 10.0.1.0.0 | :repeat: | Payments Due list aging comments
+[account_due_list_payment_mode](account_due_list_payment_mode/) | 10.0.1.0.0 | :repeat: | Payment due list with payment mode
+[account_payment_batch_process](account_payment_batch_process/) | 10.0.1.0.0 | :repeat: | Process Payments in Batch
+[account_payment_credit_card](account_payment_credit_card/) | 10.0.1.0.0 | :repeat: | Add support for credit card payments
+[account_payment_return](account_payment_return/) | 10.0.1.1.0 | :repeat: | Manage the return of your payments
+[account_payment_return_import](account_payment_return_import/) | 10.0.1.0.0 | :repeat: | This module adds a generic wizard to import payment returnfile formats. Is only the base to be extended by anothermodules
+[account_payment_return_import_sepa_pain](account_payment_return_import_sepa_pain/) | 10.0.1.0.0 | :repeat: | Module to import SEPA Direct Debit Unpaid Report File Format PAIN.002.001.03
 
 
 Unported addons
 ---------------
-addon | version | summary
---- | --- | ---
-[account_vat_on_payment](account_vat_on_payment/) | 8.0.1.0.0 (unported) | VAT on payment
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[account_vat_on_payment](account_vat_on_payment/) | 8.0.1.0.0 (unported) | :repeat: | VAT on payment
 
 [//]: # (end addons)
 
