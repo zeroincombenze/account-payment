@@ -25,6 +25,7 @@ Installation
 
 
 
+
 This module depends on *account_banking_payment_export* module from
 OCA/bank-payment repository.
 
@@ -34,7 +35,10 @@ Configuration
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -55,8 +59,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -74,12 +80,15 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
 
+
 ### Contributors
+
 
 
 
@@ -92,6 +101,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 
