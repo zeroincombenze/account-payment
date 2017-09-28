@@ -13,6 +13,7 @@
 ================================================================================================
 
 Odoo account payment modules
+============================
 
 This repository hosts modules for handling requirements related to payment topics:
 * Extend payment orders for direct debit also.
