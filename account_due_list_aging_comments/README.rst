@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Account Due List Aging Comments
+===============================
 
 This module extends the Payments and Due list to add the capability to
 introduce aging comments in-line.
@@ -34,6 +35,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -84,7 +87,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

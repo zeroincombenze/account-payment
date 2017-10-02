@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Credit Card Payments
+====================
 
 This module provides a way to record Credit Card purchases and to pay them the same way regular purchases are recorded (via Vendor Bills) and paid (via Vendor Payments).
 
@@ -57,6 +58,8 @@ Configuration
 * Check the box ‘Transfer AP to Credit Card Company’ and set the ‘Credit Card Company’ field
 
 Usage
+-----
+
 -----
 
 -----
@@ -111,7 +114,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Account Payment Return Import
+=============================
 
 This module adds a generic wizard + methods to import payment return file
 formats.
@@ -39,6 +40,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -100,7 +103,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

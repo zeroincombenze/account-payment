@@ -14,6 +14,7 @@
 =========================
 
 Account Due List Payment Mode
+=============================
 
 This module adds a field to the due list of pending payments:
 
@@ -43,6 +44,8 @@ Configuration
 There is nothing to configure.
 
 Usage
+-----
+
 -----
 
 -----
@@ -88,7 +91,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Account Payment Return Import SEPA Pain
+=======================================
 
 Module to import SEPA Direct Debit Unpaid Report File Format PAIN.002.001.03.
 
@@ -37,6 +38,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -81,7 +84,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

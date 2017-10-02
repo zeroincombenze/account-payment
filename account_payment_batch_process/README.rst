@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Process Payments in Batch
+=========================
 
 This module allows to process payments in batch for customers invoices and vendor bills.
 
@@ -39,6 +40,8 @@ Configuration
 * No specific configuration required.
 
 Usage
+-----
+
 -----
 
 -----
@@ -91,7 +94,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 
