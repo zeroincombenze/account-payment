@@ -52,6 +52,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 Under *Invoicing > Sales* there is available a new menu called *Import Payment
