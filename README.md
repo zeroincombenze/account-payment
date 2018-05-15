@@ -3,9 +3,66 @@
 [![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/account-payment/badge.svg?branch=9.0)](https://coveralls.io/github/zeroincombenze/account-payment?branch=9.0)
 [![codecov](https://codecov.io/gh/zeroincombenze/account-payment/branch/9.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/account-payment/branch/9.0)
 [![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-9.svg)](https://github.com/OCA/account-payment/tree/9.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/dev/9.0)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/account-)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-9.svg)](http://wiki.zeroincombenze.org/en/Odoo/9.0/man/FI)
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-9.svg)](http://erp9.zeroincombenze.it)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Odoo account payment modules
 ============================
@@ -23,28 +80,29 @@ You can find complementary modules for handling bank payment related tasks on:
  
 [//]: # (addons)
 
+
 Available addons
 ----------------
-addon | version | summary
---- | --- | ---
-[account_check_printing_report_base](account_check_printing_report_base/) | 9.0.1.0.0 | Account Check Printing Report Base
-[account_check_printing_report_dlt103](account_check_printing_report_dlt103/) | 9.0.1.0.0 | Account Check Printing Report DLT103
-[account_due_list](account_due_list/) | 9.0.1.0.0 | Payments Due list
-[account_due_list_aging_comments](account_due_list_aging_comments/) | 9.0.0.1.0 | Payments Due list aging comments
-[account_due_list_days_overdue](account_due_list_days_overdue/) | 9.0.0.1.0 | Payments Due list days overdue
-[account_due_list_payment_mode](account_due_list_payment_mode/) | 9.0.1.0.0 | Payment due list with payment mode
-[account_partner_reconcile](account_partner_reconcile/) | 9.0.1.0.0 | Account Partner Reconcile
-[account_payment_return](account_payment_return/) | 9.0.1.1.0 | Manage the return of your payments
-[account_payment_return_import](account_payment_return_import/) | 9.0.1.0.0 | This module add a generic wizard to import payment return fileformats. Is only the base to be extended by another modules
-[account_payment_show_invoice](account_payment_show_invoice/) | 9.0.1.0.0 | Extends the tree view of payments to show the paid invoices related to the payments using the vendor reference by default
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[account_check_printing_report_base](account_check_printing_report_base/) | 9.0.1.0.0 | :repeat: | Account Check Printing Report Base
+[account_check_printing_report_dlt103](account_check_printing_report_dlt103/) | 9.0.1.0.0 | :repeat: | Account Check Printing Report DLT103
+[account_due_list](account_due_list/) | 9.0.1.0.0 | :repeat: | Payments Due list
+[account_due_list_aging_comments](account_due_list_aging_comments/) | 9.0.0.1.0 | :repeat: | Payments Due list aging comments
+[account_due_list_days_overdue](account_due_list_days_overdue/) | 9.0.0.1.0 | :repeat: | Payments Due list days overdue
+[account_due_list_payment_mode](account_due_list_payment_mode/) | 9.0.1.0.0 | :repeat: | Payment due list with payment mode
+[account_partner_reconcile](account_partner_reconcile/) | 9.0.1.0.0 | :repeat: | Account Partner Reconcile
+[account_payment_return](account_payment_return/) | 9.0.1.1.0 | :repeat: | Manage the return of your payments
+[account_payment_return_import](account_payment_return_import/) | 9.0.1.0.0 | :repeat: | This module add a generic wizard to import payment return fileformats. Is only the base to be extended by another modules
+[account_payment_show_invoice](account_payment_show_invoice/) | 9.0.1.0.0 | :repeat: | Extends the tree view of payments to show the paid invoices related to the payments using the vendor reference by default
 
 
 Unported addons
 ---------------
-addon | version | summary
---- | --- | ---
-[account_payment_term_multi_day](account_payment_term_multi_day/) | 8.0.1.0.0 (unported) | Multiple payment days for payment terms
-[account_vat_on_payment](account_vat_on_payment/) | 8.0.1.0.0 (unported) | VAT on payment
+addon | version | OCA version | summary
+--- | --- | --- | ---
+[account_payment_term_multi_day](account_payment_term_multi_day/) | 8.0.1.0.0 (unported) | :repeat: | Multiple payment days for payment terms
+[account_vat_on_payment](account_vat_on_payment/) | 8.0.1.0.0 (unported) | :repeat: | VAT on payment
 
 [//]: # (end addons)
 
