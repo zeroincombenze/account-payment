@@ -80,6 +80,8 @@
 
 
 
+
+
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Odoo account payment modules
@@ -101,26 +103,26 @@ You can find complementary modules for handling bank payment related tasks on:
 
 Available addons
 ----------------
-addon | version | OCA version | summary
---- | --- | --- | ---
-[account_check_printing_report_base](account_check_printing_report_base/) | 9.0.1.0.0 | :repeat: | Account Check Printing Report Base
-[account_check_printing_report_dlt103](account_check_printing_report_dlt103/) | 9.0.1.0.0 | :repeat: | Account Check Printing Report DLT103
-[account_due_list](account_due_list/) | 9.0.1.0.0 | :repeat: | Payments Due list
-[account_due_list_aging_comments](account_due_list_aging_comments/) | 9.0.0.1.0 | :repeat: | Payments Due list aging comments
-[account_due_list_days_overdue](account_due_list_days_overdue/) | 9.0.0.1.0 | :repeat: | Payments Due list days overdue
-[account_due_list_payment_mode](account_due_list_payment_mode/) | 9.0.1.0.0 | :repeat: | Payment due list with payment mode
-[account_partner_reconcile](account_partner_reconcile/) | 9.0.1.0.0 | :repeat: | Account Partner Reconcile
-[account_payment_return](account_payment_return/) | 9.0.1.1.0 | :repeat: | Manage the return of your payments
-[account_payment_return_import](account_payment_return_import/) | 9.0.1.0.0 | :repeat: | This module add a generic wizard to import payment return fileformats. Is only the base to be extended by another modules
-[account_payment_show_invoice](account_payment_show_invoice/) | 9.0.1.0.0 | :repeat: | Extends the tree view of payments to show the paid invoices related to the payments using the vendor reference by default
+addon | version | summary
+--- | --- | ---
+[account_check_printing_report_base](account_check_printing_report_base/) | 9.0.1.0.0 | Account Check Printing Report Base
+[account_check_printing_report_dlt103](account_check_printing_report_dlt103/) | 9.0.1.0.0 | Account Check Printing Report DLT103
+[account_due_list](account_due_list/) | 9.0.1.0.0 | Payments Due list
+[account_due_list_aging_comments](account_due_list_aging_comments/) | 9.0.0.1.0 | Payments Due list aging comments
+[account_due_list_days_overdue](account_due_list_days_overdue/) | 9.0.0.1.0 | Payments Due list days overdue
+[account_due_list_payment_mode](account_due_list_payment_mode/) | 9.0.1.0.0 | Payment due list with payment mode
+[account_partner_reconcile](account_partner_reconcile/) | 9.0.1.0.0 | Account Partner Reconcile
+[account_payment_return](account_payment_return/) | 9.0.1.1.0 | Manage the return of your payments
+[account_payment_return_import](account_payment_return_import/) | 9.0.1.0.0 | This module add a generic wizard to import payment return fileformats. Is only the base to be extended by another modules
+[account_payment_show_invoice](account_payment_show_invoice/) | 9.0.1.0.0 | Extends the tree view of payments to show the paid invoices related to the payments using the vendor reference by default
 
 
 Unported addons
 ---------------
-addon | version | OCA version | summary
---- | --- | --- | ---
-[account_payment_term_multi_day](account_payment_term_multi_day/) | 8.0.1.0.0 (unported) | :repeat: | Multiple payment days for payment terms
-[account_vat_on_payment](account_vat_on_payment/) | 8.0.1.0.0 (unported) | :repeat: | VAT on payment
+addon | version | summary
+--- | --- | ---
+[account_payment_term_multi_day](account_payment_term_multi_day/) | 8.0.1.0.0 (unported) | Multiple payment days for payment terms
+[account_vat_on_payment](account_vat_on_payment/) | 8.0.1.0.0 (unported) | VAT on payment
 
 [//]: # (end addons)
 
@@ -135,11 +137,13 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
 **zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
-which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
-[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
+which distributes and promotes **Odoo** ready-to-use on own cloud infrastructure.
+[Zeroincombenze® distribution of Odoo](http://wiki.zeroincombenze.org/en/Odoo)
 is mainly designed for Italian law and markeplace.
-Everytime, every Odoo DB and customized code can be deployed on local server too.
+Users can download from [Zeroincombenze® distribution](https://github.com/zeroincombenze/OCB) and deploy on local server.
 
 [//]: # (end copyright)
+
+
 
 [![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
