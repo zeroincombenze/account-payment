@@ -1,0 +1,90 @@
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan" style="color:#162832;">User can delete account payment / Permette di eliminare una registrazione di pagamento</h2>
+        </div>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png" alt="English"/>
+            </p>
+            <p class="oe_mt16" align="justify">This module enables user to delete a payment record.
+Payment record cannot be remove if account entry has received the sequence number.
+This module reset the field "move_name" before unlink().
+<p align="justify">
+<b>Warning!</b> This action leaves a hole in journal entries sequence.
+This issue is forbidden in some countries.
+</p></p>
+        </div>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png" alt="Italiano"/>
+            </p>
+            <p class="oe_mt16" align="justify">Questo modulo permette all'utente di eliminare una registrazione di pagamento.
+Una registrazione di pagamento non pu&#242; essere rimossa se la relativa registrazione
+contabile ha gi&#224; ricevuto il numero di protocollo.
+Questo modulo azzera il campo "move_name" prima dell'eliminazione.
+<p align="justify">
+<b>Attenzione!</b> Questa azione genera un salto di numerazione contabile.
+Questa situazione potrebbe essere invalidante per una contabilit&#224; fiscale.
+</p></p>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan" style="color:#162832;">Usage / Utilizzo</h3>
+        <div class="oe_span12">
+<img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png"/>
+In order to operate, you have to enable deleting entries in journal.
+In developer mode, menu Invoicing &gt; Configuration &gt; Journals
+choice the bank journal for pyament, on tab [Advanced Setting] enable
+"Allow Cancelling Entries".
+<p align="justify">
+<img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png"/>
+Per eliminare la registrazione &#232; necessario abilitare l'eliminazione nel relativo
+registro sezionale contabile.
+</p><p align="justify">
+In modalit&#224; sviluppatore, men&#249; Fatturazione &gt; Configurazione &gt; Registri,
+selezionare il registro bancario di pagamento, nella linguetta [Impostazioni Avanzate]
+abilitare il campo "Consentire annullamwnto registrazioni".
+</p>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan" style="color:#162832;">ChangeLog History / Cronologia modifiche</h3>
+        <div class="oe_span12">
+<h3>12.0.0.1.0 (2023-10-13)</h3>
+<p align="justify">
+<ul>
+<li>Initial implementation / Primo rilascio</li>
+</ul>
+</p>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_separator"/>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span6" align="left">
+            <p class="oe_mt16">Authors / Autori:</p>
+            <p class="oe_mt16"><ul>
+<li><a href="https://www.zeroincombenze.it/">SHS-AV s.r.l.</a></li>
+</ul></p>
+        </div>
+        <div class="oe_span6" align="left">
+            <p class="oe_mt16">Contributors / Contributi da:</p>
+            <p class="oe_mt16"><ul>
+<li>Antonio M. Vigliotti &lt;antoniomaria.vigliotti@gmail.com&gt;</li>
+</ul></p>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <p>This module is maintained by the <b>SHS_AV s.r.l.</b>.</p>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced">
+        <p>This module is part of <a href="https://github.com/zeroincombenze/account-payment">account-payment</a> project.</p>
+    </div>
+</section>
