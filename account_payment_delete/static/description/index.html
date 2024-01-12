@@ -1,12 +1,25 @@
 
 <section class="oe_container">
     <div class="oe_row oe_spaced">
-        <div class="oe_span12">
-            <h2 class="oe_slogan" style="color:#162832;">User can delete account payment / Permette di eliminare una registrazione di pagamento</h2>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="/l10n_uk/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
+                <img src="/l10n_us/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
+            </p>
+            <h2 class="oe_slogan" style="color:#162832;">User can delete account payment
+</h2>
         </div>
         <div class="oe_span6">
             <p align="center">
-                <img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png" alt="English"/>
+                <img src="/l10n_it/static/description/icon.png" alt="Italiano" style="width:16px;height:16px;"/>
+            </p>
+            <h2 class="oe_slogan" style="color:#162832;">Permette di eliminare una registrazione di pagamento
+</h2>
+        </div>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="/l10n_uk/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
+                <img src="/l10n_us/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
             </p>
             <p class="oe_mt16" align="justify">This module enables user to delete a payment record.
 Payment record cannot be remove if account entry has received the sequence number.
@@ -14,11 +27,12 @@ This module reset the field "move_name" before unlink().
 <p align="justify">
 <b>Warning!</b> This action leaves a hole in journal entries sequence.
 This issue is forbidden in some countries.
-</p></p>
+</p>
+</p>
         </div>
         <div class="oe_span6">
             <p align="center">
-                <img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png" alt="Italiano"/>
+                <img src="/l10n_it/static/description/icon.png" alt="Italiano" style="width:16px;height:16px;"/>
             </p>
             <p class="oe_mt16" align="justify">Questo modulo permette all'utente di eliminare una registrazione di pagamento.
 Una registrazione di pagamento non pu&#242; essere rimossa se la relativa registrazione
@@ -27,37 +41,82 @@ Questo modulo azzera il campo "move_name" prima dell'eliminazione.
 <p align="justify">
 <b>Attenzione!</b> Questa azione genera un salto di numerazione contabile.
 Questa situazione potrebbe essere invalidante per una contabilit&#224; fiscale.
-</p></p>
+</p>
+</p>
         </div>
+        <img src="/account_payment_delete/static/description/description.png" alt="Account payment delete" style="width:98%;max-width:1140px"/>
+
     </div>
     <div class="oe_row oe_spaced">
-        <h3 class="oe_slogan" style="color:#162832;">Usage / Utilizzo</h3>
-        <div class="oe_span12">
-<img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png"/>
-In order to operate, you have to enable deleting entries in journal.
-In developer mode, menu Invoicing &gt; Configuration &gt; Journals
-choice the bank journal for pyament, on tab [Advanced Setting] enable
-"Allow Cancelling Entries".
+        <h3 align="center" style="color:#162832;font-size: 26px;font-weight: 300;">Configuration | Configurazione</h3>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="/l10n_uk/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
+                <img src="/l10n_us/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
+            </p>
+            <p class="oe_mt16" align="justify">Activate developer mode:
 <p align="justify">
-<img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/it_IT.png"/>
-Per eliminare la registrazione &#232; necessario abilitare l'eliminazione nel relativo
-registro sezionale contabile.
-</p><p align="justify">
-In modalit&#224; sviluppatore, men&#249; Fatturazione &gt; Configurazione &gt; Registri,
-selezionare il registro bancario di pagamento, nella linguetta [Impostazioni Avanzate]
-abilitare il campo "Consentire annullamwnto registrazioni".
+<span class="fa fa-th-large" style="color:#7C7BAD"/> Invoicing &#187; Configuration &#187; Journals &#187; <i>JOURNAL</i> &#187; <span style="color:white;background-color:#7C7BAD">&#160;Edit&#160;</span> &#187; Allow Cancelling Entries
+</p>
+</p>
+        </div>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="/l10n_it/static/description/icon.png" alt="Italiano" style="width:16px;height:16px;"/>
+            </p>
+            <p class="oe_mt16" align="justify">In modalit&#224; sviluppatore:
+<p align="justify">
+<span class="fa fa-th-large" style="color:#7C7BAD"/> Fatturazione &#187; Configurazione &#187; Registri &#187; <i>REGISTRO</i> &#187; <span style="color:white;background-color:#7C7BAD">&#160;Modifica&#160;</span> &#187; Consentire annullamento registrazioni
+</p>
 </p>
         </div>
     </div>
     <div class="oe_row oe_spaced">
-        <h3 class="oe_slogan" style="color:#162832;">ChangeLog History / Cronologia modifiche</h3>
-        <div class="oe_span12">
-<h3>12.0.0.1.0 (2023-10-13)</h3>
+        <h3 align="center" style="color:#162832;font-size: 26px;font-weight: 300;">Usage | Utilizzo</h3>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="/l10n_uk/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
+                <img src="/l10n_us/static/description/icon.png" alt="English" style="width:16px;height:16px;"/>
+            </p>
+            <p class="oe_mt16" align="justify">Remove payment:
 <p align="justify">
+</p><p align="justify">
+<span class="fa fa-th-large" style="color:#7C7BAD"/> Invoicing &#187; Vendors &#187; Payments &#187; <i>PAYMENT</i> &#187; <span style="color:white;background-color:#7C7BAD">&#160;Edit&#160;</span> &#187; Delete
+</p><p align="justify">
+<span class="fa fa-th-large" style="color:#7C7BAD"/> Invoicing &#187; Customers &#187; Payments &#187; <i>PAYMENT</i> &#187; <span style="color:white;background-color:#7C7BAD">&#160;Edit&#160;</span> &#187; Delete
+</p>
+</p>
+        </div>
+        <div class="oe_span6">
+            <p align="center">
+                <img src="/l10n_it/static/description/icon.png" alt="Italiano" style="width:16px;height:16px;"/>
+            </p>
+            <p class="oe_mt16" align="justify">Per eliminare una registrazione di pagamento:
+<p align="justify">
+<span class="fa fa-th-large" style="color:#7C7BAD"/> Fatturazione &#187; Fornitori &#187; Pagamenti &#187; <i>PAGAMENTO</i> &#187; <span style="color:white;background-color:#7C7BAD">&#160;Azione&#160;</span> &#187; Elimina
+</p><p align="justify">
+<span class="fa fa-th-large" style="color:#7C7BAD"/> Fatturazione &#187; Clienti &#187; Pagamenti &#187; <i>PAGAMENTO</i> &#187; <span style="color:white;background-color:#7C7BAD">&#160;Azione&#160;</span> &#187; Elimina
+</p>
+</p>
+        </div>
+    </div>
+    <div class="oe_row oe_spaced">
+        <h3 align="center" style="color:#162832;font-size: 26px;font-weight: 300;">ChangeLog History | Cronologia modifiche</h3>
+        <div class="oe_span12">
+<h4>12.0.0.1.1 (2024-01-12)</h4>
+<p align="justify">
+<ul>
+<li>[IMP] Documentation upgrade</li>
+<li>[QUA] Test coverage 44% (9: 5+4) [0 TestPoints] - quality rating 27 (target 100)</li>
+</ul>
+</p><p align="justify">
+<h4>12.0.0.1.0 (2023-10-13)</h4>
+</p><p align="justify">
 <ul>
 <li>Initial implementation / Primo rilascio</li>
 </ul>
 </p>
+
         </div>
     </div>
 </section>
@@ -67,24 +126,29 @@ abilitare il campo "Consentire annullamwnto registrazioni".
 <section class="oe_container">
     <div class="oe_row oe_spaced">
         <div class="oe_span6" align="left">
-            <p class="oe_mt16">Authors / Autori:</p>
+            <p class="oe_mt16">Authors | Autori:</p>
             <p class="oe_mt16"><ul>
-<li><a href="https://www.zeroincombenze.it/">SHS-AV s.r.l.</a></li>
-</ul></p>
+<li><a href="https://www.zeroincombenze.it">SHS-AV s.r.l.</a></li>
+</ul>
+</p>
         </div>
         <div class="oe_span6" align="left">
-            <p class="oe_mt16">Contributors / Contributi da:</p>
+            <p class="oe_mt16">Contributors | Contributi da:</p>
             <p class="oe_mt16"><ul>
-<li>Antonio M. Vigliotti &lt;antoniomaria.vigliotti@gmail.com&gt;</li>
-</ul></p>
+<li><a href="mailto:antoniomaria.vigliotti@gmail.com">Antonio M. Vigliotti</a></li>
+</ul>
+</p>
         </div>
     </div>
     <div class="oe_row oe_spaced">
         <div class="oe_span12">
-            <p>This module is maintained by the <b>SHS_AV s.r.l.</b>.</p>
+            <p>This module is maintained by the <b><a href="https://www.shs-av.com">SHS_AV s.r.l.</a></b>.</p>
         </div>
     </div>
     <div class="oe_row oe_spaced">
-        <p>This module is part of <a href="https://github.com/zeroincombenze/account-payment">account-payment</a> project.</p>
+        <p>This module is part of <a href="https://github.com/zeroincombenze/account-payment ">account-payment
+</a> project.</p>
+        <p>Published information on | Informazioni pubblicate: 2024-01-12
+</p>
     </div>
 </section>

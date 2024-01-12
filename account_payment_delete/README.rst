@@ -1,4 +1,3 @@
-
 ================================================================
 |icon| Account payment delete/Cancellazione pagamento 12.0.0.1.0
 ================================================================
@@ -12,7 +11,7 @@
 
 
 
-Overview / Panoramica
+Overview | Panoramica
 =====================
 
 |en| This module enables user to delete a payment record.
@@ -23,8 +22,6 @@ This module reset the field "move_name" before unlink().
 This issue is forbidden in some countries.
 
 
-|
-
 |it| Questo modulo permette all'utente di eliminare una registrazione di pagamento.
 Una registrazione di pagamento non può essere rimossa se la relativa registrazione
 contabile ha già ricevuto il numero di protocollo.
@@ -33,40 +30,56 @@ Questo modulo azzera il campo "move_name" prima dell'eliminazione.
 **Attenzione!** Questa azione genera un salto di numerazione contabile.
 Questa situazione potrebbe essere invalidante per una contabilità fiscale.
 
+.. |thumbnail| image:: static/desciption/description.png
 
-|
 
-Usage / Utilizzo
+Configuration | Configurazione
+------------------------------
+
+Activate developer mode:
+
+☰ Invoicing > Configuration > Journals > *JOURNAL* > [Edit] > Allow Cancelling Entries
+
+
+
+Usage | Utilizzo
 ----------------
 
-|en|
-In order to operate, you have to enable deleting entries in journal.
-In developer mode, menu Invoicing > Configuration > Journals
-choice the bank journal for pyament, on tab [Advanced Setting] enable
-"Allow Cancelling Entries".
-
-|it|
-Per eliminare la registrazione è necessario abilitare l'eliminazione nel relativo
-registro sezionale contabile.
-
-In modalità sviluppatore, menù Fatturazione > Configurazione > Registri,
-selezionare il registro bancario di pagamento, nella linguetta [Impostazioni Avanzate]
-abilitare il campo "Consentire annullamwnto registrazioni".
+Remove payment:
 
 
-|
+☰ Invoicing > Vendors > Payments > *PAYMENT* > [Edit] > Delete
 
-Getting started / Primi passi
+☰ Invoicing > Customers > Payments > *PAYMENT* > [Edit] > Delete
+
+
+
+Getting started | Primi passi
 =============================
 
 |Try Me|
 
 
-|
-
-Installation / Installazione
+Prerequisites | Prerequisiti
 ----------------------------
 
+* python 3.7
+* postgresql 9.6+ (best 10.0+)
+
+::
+
+    cd $HOME
+    # Follow statements activate deployment, installation and upgrade tools
+    cd $HOME
+    [[ ! -d ./tools ]] && git clone https://github.com/zeroincombenze/tools.git
+    cd ./tools
+    ./install_tools.sh -pUT
+    source $HOME/devel/activate_tools
+
+
+
+Installation | Installazione
+----------------------------
 
 +---------------------------------+------------------------------------------+
 | |en|                            | |it|                                     |
@@ -86,76 +99,33 @@ Installation / Installazione
 
 ::
 
-    cd $HOME
-    # *** Tools installation & activation ***
-    # Case 1: you have not installed zeroincombenze tools
-    git clone https://github.com/zeroincombenze/tools.git
-    cd $HOME/tools
-    ./install_tools.sh -pT
-    source $HOME/devel/activate_tools
-    # Case 2: you have already installed zeroincombenze tools
-    cd $HOME/tools
-    ./install_tools.sh -UT
-    source $HOME/devel/activate_tools
-    # *** End of tools installation or upgrade ***
     # Odoo repository installation; OCB repository must be installed
     deploy_odoo clone -r account-payment -b 12.0 -G zero -p $HOME/12.0
     # Upgrade virtual environment
     vem amend $HOME/12.0/venv_odoo
 
-From UI: go to:
-
-* |menu| Setting > Activate Developer mode
-* |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **account_payment_delete** > Install
 
 
-|
-
-Upgrade / Aggiornamento
+Upgrade | Aggiornamento
 -----------------------
-
 
 ::
 
-    cd $HOME
-    # *** Tools installation & activation ***
-    # Case 1: you have not installed zeroincombenze tools
-    git clone https://github.com/zeroincombenze/tools.git
-    cd $HOME/tools
-    ./install_tools.sh -pT
-    source $HOME/devel/activate_tools
-    # Case 2: you have already installed zeroincombenze tools
-    cd $HOME/tools
-    ./install_tools.sh -UT
-    source $HOME/devel/activate_tools
-    # *** End of tools installation or upgrade ***
-    # Odoo repository upgrade
     deploy_odoo update -r account-payment -b 12.0 -G zero -p $HOME/12.0
     vem amend $HOME/12.0/venv_odoo
     # Adjust following statements as per your system
     sudo systemctl restart odoo
 
-From UI: go to:
-
-* |menu| Setting > Activate Developer mode
-* |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **account_payment_delete** > Update
 
 
-|
-
-Support / Supporto
+Support | Supporto
 ------------------
-
 
 |Zeroincombenze| This module is supported by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
 
-|
-|
 
-Get involved / Ci mettiamo in gioco
+Get involved | Ci mettiamo in gioco
 ===================================
 
 Bug reports are welcome! You can use the issue tracker to report bugs,
@@ -164,9 +134,10 @@ and/or submit pull requests on `GitHub Issues
 
 In case of trouble, please check there if your issue has already been reported.
 
+
+
 Proposals for enhancement
 -------------------------
-
 
 |en| If you have a proposal to change this module, you may want to send an email to <cc@shs-av.com> for initial feedback.
 An Enhancement Proposal may be submitted if your idea gains ground.
@@ -174,8 +145,15 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 |it| Se hai proposte per migliorare questo modulo, puoi inviare una mail a <cc@shs-av.com> per un iniziale contatto.
 
 
-ChangeLog History / Cronologia modifiche
+
+ChangeLog History | Cronologia modifiche
 ----------------------------------------
+
+12.0.0.1.1 (2024-01-12)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [IMP] Documentation upgrade
+* [QUA] Test coverage 44% (9: 5+4) [0 TestPoints] - quality rating 27 (target 100)
 
 12.0.0.1.0 (2023-10-13)
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -183,10 +161,8 @@ ChangeLog History / Cronologia modifiche
 * Initial implementation / Primo rilascio
 
 
-|
-|
 
-Credits / Didascalie
+Credits | Didascalie
 ====================
 
 Copyright
@@ -195,27 +171,28 @@ Copyright
 Odoo is a trademark of `Odoo S.A. <https://www.odoo.com/>`__ (formerly OpenERP)
 
 
-|
-
-Authors / Autori
+Authors | Autori
 ----------------
 
-* SHS-AV s.r.l. <https://www.zeroincombenze.it>
+* `SHS-AV s.r.l. <https://www.zeroincombenze.it>`__
 
-Contributors / Contributi da
+
+
+Contributors | Contributi da
 ----------------------------
 
-* Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>
+* `Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>`__
 
-Maintainer / Manutenzione
+
+
+Maintainer | Manutenzione
 -------------------------
 
-Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>
+* `Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>`__
 
-|
+
 
 ----------------
-
 
 |en| **zeroincombenze®** is a trademark of `SHS-AV s.r.l. <https://www.shs-av.com/>`__
 which distributes and promotes ready-to-use **Odoo** on own cloud infrastructure.
@@ -228,10 +205,11 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 
 |
+|
 
 This module is part of account-payment project.
 
-Last Update / Ultimo aggiornamento: 2023-10-14
+Last Update / Ultimo aggiornamento: 2024-01-12
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-black.png
     :target: https://odoo-community.org/page/development-status
@@ -291,5 +269,3 @@ Last Update / Ultimo aggiornamento: 2023-10-14
    :target: https://github.com/zeroincombenze/grymb/blob/master/certificates/ade/scope/fatturapa.md
 .. |chat_with_us| image:: https://www.shs-av.com/wp-content/chat_with_us.gif
    :target: https://t.me/Assitenza_clienti_powERP
-
-

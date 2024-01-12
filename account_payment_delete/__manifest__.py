@@ -6,7 +6,9 @@
     "author": "SHS-AV s.r.l.",
     "website": "https://www.zeroincombenze.it/crm",
     "development_status": "Alpha",
-    "license": "AGPL-3",
+    "license": "LGPL-3",
     "depends": ["account_cancel"],
     "maintainer": "Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>",
+    "price": 0.0,
+    "support": "cc@shs-av.com",
 }
