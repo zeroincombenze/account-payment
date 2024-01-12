@@ -30,8 +30,9 @@ Questo modulo azzera il campo "move_name" prima dell'eliminazione.
 **Attenzione!** Questa azione genera un salto di numerazione contabile.
 Questa situazione potrebbe essere invalidante per una contabilità fiscale.
 
-.. |thumbnail| image:: static/desciption/description.png
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/account-payment/12.0/account_payment_delete/static/description/description.png
 
+|thumbnail|
 
 Configuration | Configurazione
 ------------------------------
