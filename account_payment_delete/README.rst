@@ -1,5 +1,5 @@
 ================================================================
-|icon| Account payment delete/Cancellazione pagamento 12.0.0.1.0
+|icon| Account payment delete/Cancellazione pagamento 12.0.1.0.0
 ================================================================
 
 **User can delete account payment**
@@ -30,9 +30,11 @@ Questo modulo azzera il campo "move_name" prima dell'eliminazione.
 **Attenzione!** Questa azione genera un salto di numerazione contabile.
 Questa situazione potrebbe essere invalidante per una contabilità fiscale.
 
-.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/account-payment/12.0/account_payment_delete/static/description/description.png
 
 |thumbnail|
+
+.. |thumbnail| image:: https://raw.githubusercontent.com/zeroincombenze/account-payment/12.0/account_payment_delete/static/description/description.png
+
 
 Configuration | Configurazione
 ------------------------------
@@ -150,7 +152,7 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 ChangeLog History | Cronologia modifiche
 ----------------------------------------
 
-12.0.0.1.1 (2024-01-12)
+12.0.0.1.1 (2024-01-13)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * [IMP] Documentation upgrade
@@ -210,41 +212,20 @@ La distribuzione `Zeroincombenze® <https://www.zeroincombenze.it/>`__ è proget
 
 This module is part of account-payment project.
 
-Last Update / Ultimo aggiornamento: 2024-01-12
+Last Update / Ultimo aggiornamento: 2024-01-13
 
-.. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-black.png
+.. |Maturity| image:: https://img.shields.io/badge/maturity-Mature-green.png
     :target: https://odoo-community.org/page/development-status
     :alt: 
-.. |Build Status| image:: https://travis-ci.org/zeroincombenze/account-payment.svg?branch=12.0
-    :target: https://travis-ci.com/zeroincombenze/account-payment
-    :alt: github.com
 .. |license gpl| image:: https://img.shields.io/badge/licence-LGPL--3-7379c3.svg
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 .. |license opl| image:: https://img.shields.io/badge/licence-OPL-7379c3.svg
     :target: https://www.odoo.com/documentation/user/14.0/legal/licenses/licenses.html
     :alt: License: OPL
-.. |Coverage Status| image:: https://coveralls.io/repos/github/zeroincombenze/account-payment/badge.svg?branch=12.0
-    :target: https://coveralls.io/github/zeroincombenze/account-payment?branch=12.0
-    :alt: Coverage
-.. |Codecov Status| image:: https://codecov.io/gh/zeroincombenze/account-payment/branch/12.0/graph/badge.svg
-    :target: https://codecov.io/gh/zeroincombenze/account-payment/branch/12.0
-    :alt: Codecov
-.. |Tech Doc| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-12.svg
-    :target: https://wiki.zeroincombenze.org/en/Odoo/12.0/dev
-    :alt: Technical Documentation
-.. |Help| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-12.svg
-    :target: https://wiki.zeroincombenze.org/it/Odoo/12.0/man
-    :alt: Technical Documentation
 .. |Try Me| image:: https://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-12.svg
     :target: https://erp12.zeroincombenze.it
     :alt: Try Me
-.. |OCA Codecov| image:: https://codecov.io/gh/OCA/account-payment/branch/12.0/graph/badge.svg
-    :target: https://codecov.io/gh/OCA/account-payment/branch/12.0
-    :alt: Codecov
-.. |Odoo Italia Associazione| image:: https://www.odoo-italia.org/images/Immagini/Odoo%20Italia%20-%20126x56.png
-   :target: https://odoo-italia.org
-   :alt: Odoo Italia Associazione
 .. |Zeroincombenze| image:: https://avatars0.githubusercontent.com/u/6972555?s=460&v=4
    :target: https://www.zeroincombenze.it/
    :alt: Zeroincombenze
@@ -268,5 +249,3 @@ Last Update / Ultimo aggiornamento: 2024-01-12
    :target: https://github.com/zeroincombenze/grymb/blob/master/certificates/ade/scope/Desktoptelematico.md
 .. |FatturaPA| image:: https://raw.githubusercontent.com/zeroincombenze/grymb/master/certificates/ade/icons/fatturapa.png
    :target: https://github.com/zeroincombenze/grymb/blob/master/certificates/ade/scope/fatturapa.md
-.. |chat_with_us| image:: https://www.shs-av.com/wp-content/chat_with_us.gif
-   :target: https://t.me/Assitenza_clienti_powERP
