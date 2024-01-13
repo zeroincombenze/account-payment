@@ -51,9 +51,9 @@ Usage | Utilizzo
 Remove payment:
 
 
-☰ Invoicing > Vendors > Payments > *PAYMENT* > [Edit] > Delete
+☰ Invoicing > Vendors > Payments > *PAYMENT* > [Action] > Delete
 
-☰ Invoicing > Customers > Payments > *PAYMENT* > [Edit] > Delete
+☰ Invoicing > Customers > Payments > *PAYMENT* > [Action] > Delete
 
 
 
