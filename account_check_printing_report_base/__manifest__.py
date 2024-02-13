@@ -7,21 +7,16 @@
 
 {
     "name": "Account Check Printing Report Base",
-    "version": "12.0.2.0.3",
+    "version": "13.0.2.1.2",
     "license": "AGPL-3",
     "author": "Eficent,"
-              "Serpent Consulting Services Pvt. Ltd.,"
-              "Ursa Information Systems,"
-              "Odoo Community Association (OCA)",
+    "Serpent Consulting Services Pvt. Ltd.,"
+    "Ursa Information Systems,"
+    "Odoo Community Association (OCA)",
     "category": "Generic Modules/Accounting",
     "website": "https://github.com/OCA/account-payment",
-    "depends": ["account_check_printing",
-                "report_wkhtmltopdf_param"],
-    'external_dependencies': {
-        'python': [
-            'num2words',
-        ],
-    },
+    "depends": ["account_check_printing", "report_wkhtmltopdf_param"],
+    "external_dependencies": {"python": ["num2words"]},
     "data": [
         "security/ir.model.access.csv",
         "data/report_paperformat.xml",

@@ -20,8 +20,23 @@ msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Due Date"
-msgstr "Date d'échéance"
+msgid "Account"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date due"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date invoice"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -30,18 +45,14 @@ msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Full reconciled"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 #, fuzzy
 msgid "Group By"
 msgstr "Grouper par"
-
-#. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__payment_term_id
-msgid ""
-"If you use payment terms, the due date will be computed automatically at the "
-"generation of accounting entries. If you keep the payment terms and the due "
-"date empty, it means direct payment. The payment terms may compute several "
-"due dates, for example 50% now, 50% in one month."
-msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -65,18 +76,18 @@ msgid "Journal Item"
 msgstr ""
 
 #. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_date
-msgid "Keep empty to use the current date"
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Not Full Reconciled"
 msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Month"
-msgstr "Mois"
+msgid "Overdue"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Overdue"
+msgid "Partial reconciled"
 msgstr ""
 
 #. module: account_due_list
@@ -114,12 +125,17 @@ msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Posted"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Receivable"
 msgstr ""
 
 #. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_origin
-msgid "Reference of the document that produced this invoice."
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Reconciled"
 msgstr ""
 
 #. module: account_due_list
@@ -138,10 +154,14 @@ msgid "Source Doc"
 msgstr ""
 
 #. module: account_due_list
-#: model:ir.model.fields,field_description:account_due_list.field_account_move_line__stored_invoice_id
-#, fuzzy
-msgid "Stored Invoice"
-msgstr "Facture"
+#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_origin
+msgid "The document(s) that generated the invoice."
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total Balance"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
@@ -165,6 +185,26 @@ msgid "Total Residual Currency"
 msgstr "Total résiduel"
 
 #. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total amount currency"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Unposted"
+msgstr ""
+
+#. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Unreconciled"
 msgstr ""
+
+#~ msgid "Due Date"
+#~ msgstr "Date d'échéance"
+
+#~ msgid "Month"
+#~ msgstr "Mois"
+
+#, fuzzy
+#~ msgid "Stored Invoice"
+#~ msgstr "Facture"

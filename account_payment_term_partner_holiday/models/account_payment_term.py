@@ -1,14 +1,13 @@
 # Copyright 2021 Tecnativa - Víctor Martínez
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 
-from odoo import api, fields, models
+from odoo import fields, models
 
 
 class AccountPaymentTerm(models.Model):
     _inherit = "account.payment.term"
 
-    @api.one
-    def compute(self, value, date_ref=False):
+    def compute(self, value, date_ref=False, currency=None):
         """Compute the due date taking into account the holiday periods
         set in the partner.
 
@@ -17,7 +16,7 @@ class AccountPaymentTerm(models.Model):
         Then, apply_payment_days() and apply_holidays() to prevent
         incompatibilities.
         """
-        result = super().compute(value=value, date_ref=date_ref)[0]
+        result = super().compute(value=value, date_ref=date_ref, currency=currency)
         ctx = self.env.context
         partner_id = ctx.get("move_partner_id", ctx.get("default_partner_id"))
         if partner_id:

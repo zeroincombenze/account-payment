@@ -21,8 +21,23 @@ msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Due Date"
-msgstr "Fälligkeitsdatum"
+msgid "Account"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date due"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date invoice"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -31,23 +46,14 @@ msgstr "Aus Rechnungen"
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Full reconciled"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 #, fuzzy
 msgid "Group By"
 msgstr "Gruppierung..."
-
-#. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__payment_term_id
-msgid ""
-"If you use payment terms, the due date will be computed automatically at the "
-"generation of accounting entries. If you keep the payment terms and the due "
-"date empty, it means direct payment. The payment terms may compute several "
-"due dates, for example 50% now, 50% in one month."
-msgstr ""
-"Wenn Sie Zahlungsbedingungen verwenden, wird das Fälligkeitsdatum bei der "
-"Erstellung von Buchungen automatisch berechnet. Wenn Sie die "
-"Zahlungsbedingungen und das Fälligkeitsdatum leer lassen, bedeutet das "
-"Sofortzahlung. Die Zahlungsbedingungen können mehrere Fälligkeiten "
-"berechnen, z.B. 50% jetzt, 50% in einem Monat."
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -71,19 +77,19 @@ msgid "Journal Item"
 msgstr "Journal-Posten"
 
 #. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_date
-msgid "Keep empty to use the current date"
-msgstr "Leer lassen, um aktuelles Datum zu verwenden"
-
-#. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Month"
-msgstr "Monat"
+msgid "Not Full Reconciled"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Overdue"
 msgstr "Überfällig"
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Partial reconciled"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -120,13 +126,18 @@ msgstr "Zahlungs- und Fälligkeitsliste"
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Posted"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Receivable"
 msgstr "Debitor"
 
 #. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_origin
-msgid "Reference of the document that produced this invoice."
-msgstr "Bezug auf das diese Rechnung verursachende Dokument."
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Reconciled"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -144,10 +155,15 @@ msgid "Source Doc"
 msgstr "Herkunftsdokument"
 
 #. module: account_due_list
-#: model:ir.model.fields,field_description:account_due_list.field_account_move_line__stored_invoice_id
+#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_origin
 #, fuzzy
-msgid "Stored Invoice"
-msgstr "Rechnung"
+msgid "The document(s) that generated the invoice."
+msgstr "Bezug auf das diese Rechnung verursachende Dokument."
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total Balance"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
@@ -170,9 +186,44 @@ msgid "Total Residual Currency"
 msgstr "Währung d. offenen Betrags"
 
 #. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total amount currency"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Unposted"
+msgstr ""
+
+#. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Unreconciled"
 msgstr "Offene Posten"
+
+#~ msgid "Due Date"
+#~ msgstr "Fälligkeitsdatum"
+
+#~ msgid "Month"
+#~ msgstr "Monat"
+
+#~ msgid ""
+#~ "If you use payment terms, the due date will be computed automatically at "
+#~ "the generation of accounting entries. If you keep the payment terms and "
+#~ "the due date empty, it means direct payment. The payment terms may "
+#~ "compute several due dates, for example 50% now, 50% in one month."
+#~ msgstr ""
+#~ "Wenn Sie Zahlungsbedingungen verwenden, wird das Fälligkeitsdatum bei der "
+#~ "Erstellung von Buchungen automatisch berechnet. Wenn Sie die "
+#~ "Zahlungsbedingungen und das Fälligkeitsdatum leer lassen, bedeutet das "
+#~ "Sofortzahlung. Die Zahlungsbedingungen können mehrere Fälligkeiten "
+#~ "berechnen, z.B. 50% jetzt, 50% in einem Monat."
+
+#~ msgid "Keep empty to use the current date"
+#~ msgstr "Leer lassen, um aktuelles Datum zu verwenden"
+
+#, fuzzy
+#~ msgid "Stored Invoice"
+#~ msgstr "Rechnung"
 
 #~ msgid "Overdue payments"
 #~ msgstr "Überfällige Zahlungen"

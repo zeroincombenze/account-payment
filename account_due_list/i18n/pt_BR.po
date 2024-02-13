@@ -9,21 +9,36 @@ msgstr ""
 "Project-Id-Version: account-payment (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-03 00:13+0000\n"
-"PO-Revision-Date: 2019-08-26 15:01+0000\n"
+"PO-Revision-Date: 2020-03-21 20:13+0000\n"
 "Last-Translator: Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/oca/"
-"OCA-account-payment-8-0/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/oca/OCA-account-"
+"payment-8-0/language/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.10\n"
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Due Date"
-msgstr "Data de vencimento"
+msgid "Account"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date due"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Date invoice"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -32,22 +47,13 @@ msgstr "Das Faturas"
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Group By"
-msgstr "Agrupar Por"
+msgid "Full reconciled"
+msgstr ""
 
 #. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__payment_term_id
-msgid ""
-"If you use payment terms, the due date will be computed automatically at the "
-"generation of accounting entries. If you keep the payment terms and the due "
-"date empty, it means direct payment. The payment terms may compute several "
-"due dates, for example 50% now, 50% in one month."
-msgstr ""
-"Se você usar condições de pagamento, a data de vencimento será computada "
-"automaticamente na geração de lançamentos contábeis. Se você mantiver as "
-"condições de pagamento e a data de vencimento em branco, isso significa "
-"pagamento direto. As condições de pagamento podem computar várias datas de "
-"vencimento, por exemplo, 50% agora, 50% em um mês."
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Group By"
+msgstr "Agrupar Por"
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -71,19 +77,19 @@ msgid "Journal Item"
 msgstr "Itens Diários"
 
 #. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_date
-msgid "Keep empty to use the current date"
-msgstr "Mantenha vazio para usar a data atual"
-
-#. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
-msgid "Month"
-msgstr "Mês"
+msgid "Not Full Reconciled"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Overdue"
 msgstr "Vencidas"
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Partial reconciled"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -120,13 +126,18 @@ msgstr "Pagamentos e Lista de Vencimentos"
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Posted"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Receivable"
 msgstr "Recebíveis"
 
 #. module: account_due_list
-#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_origin
-msgid "Reference of the document that produced this invoice."
-msgstr "Referência do documento que produziu esta fatura."
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Reconciled"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
@@ -144,9 +155,14 @@ msgid "Source Doc"
 msgstr "Doc. Origem"
 
 #. module: account_due_list
-#: model:ir.model.fields,field_description:account_due_list.field_account_move_line__stored_invoice_id
-msgid "Stored Invoice"
-msgstr "Faturas Armazenadas"
+#: model:ir.model.fields,help:account_due_list.field_account_move_line__invoice_origin
+msgid "The document(s) that generated the invoice."
+msgstr "Os documentos que geraram a fatura."
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total Balance"
+msgstr ""
 
 #. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
@@ -169,9 +185,43 @@ msgid "Total Residual Currency"
 msgstr "Moeda Residual Total"
 
 #. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total amount currency"
+msgstr ""
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Unposted"
+msgstr ""
+
+#. module: account_due_list
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Unreconciled"
 msgstr "Não Reconciliados"
+
+#~ msgid "Due Date"
+#~ msgstr "Data de vencimento"
+
+#~ msgid "Month"
+#~ msgstr "Mês"
+
+#~ msgid ""
+#~ "If you use payment terms, the due date will be computed automatically at "
+#~ "the generation of accounting entries. If you keep the payment terms and "
+#~ "the due date empty, it means direct payment. The payment terms may "
+#~ "compute several due dates, for example 50% now, 50% in one month."
+#~ msgstr ""
+#~ "Se você usar condições de pagamento, a data de vencimento será computada "
+#~ "automaticamente na geração de lançamentos contábeis. Se você mantiver as "
+#~ "condições de pagamento e a data de vencimento em branco, isso significa "
+#~ "pagamento direto. As condições de pagamento podem computar várias datas "
+#~ "de vencimento, por exemplo, 50% agora, 50% em um mês."
+
+#~ msgid "Keep empty to use the current date"
+#~ msgstr "Mantenha vazio para usar a data atual"
+
+#~ msgid "Stored Invoice"
+#~ msgstr "Faturas Armazenadas"
 
 #~ msgid "Overdue payments"
 #~ msgstr "Pagamentos Vencidos"

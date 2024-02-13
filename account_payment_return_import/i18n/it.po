@@ -10,30 +10,31 @@ msgstr ""
 "Project-Id-Version: account-payment (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-30 10:56+0000\n"
-"PO-Revision-Date: 2016-09-09 12:25+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"PO-Revision-Date: 2023-06-08 09:09+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-account-payment-8-0/"
 "language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:266
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "%d transactions had already been imported and were ignored."
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:269
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "1 transaction had already been imported and was ignored."
 msgstr ""
 
 #. module: account_payment_return_import
-#: sql_constraint:payment.return.line:0
+#: model:ir.model.constraint,message:account_payment_return_import.constraint_payment_return_line_unique_import_id
 msgid "A payment return transaction can be imported only once!"
 msgstr ""
 
@@ -46,7 +47,7 @@ msgid ""
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:272
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "Already imported items"
 msgstr ""
@@ -63,13 +64,13 @@ msgid "Bank account from the imported file"
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:213
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "Can not determine journal for import."
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:206
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "Can not find the account number %s."
 msgstr ""
@@ -80,7 +81,7 @@ msgid "Cancel"
 msgstr "Annulla"
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:149
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid ""
 "Could not make sense of the given file.\n"
@@ -88,7 +89,7 @@ msgid ""
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/base_parser.py:42
+#: code:addons/account_payment_return_import/wizard/base_parser.py:0
 #, python-format
 msgid "Couldn't load file data"
 msgstr ""
@@ -106,7 +107,7 @@ msgstr "Creato il"
 #. module: account_payment_return_import
 #: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__display_name
 msgid "Display Name"
-msgstr "Nome da visualizzare"
+msgstr "Nome visualizzato"
 
 #. module: account_payment_return_import
 #: model:ir.model.fields,help:account_payment_return_import.field_payment_return_import__data_file
@@ -156,7 +157,7 @@ msgstr ""
 #. module: account_payment_return_import
 #: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__journal_id
 msgid "Journal"
-msgstr "Giornale"
+msgstr "Registro"
 
 #. module: account_payment_return_import
 #: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import____last_update
@@ -166,12 +167,12 @@ msgstr "Ultima modifica il"
 #. module: account_payment_return_import
 #: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__write_uid
 msgid "Last Updated by"
-msgstr "Ultimo Aggiornamento di"
+msgstr "Ultimo aggiornamento di"
 
 #. module: account_payment_return_import
 #: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__write_date
 msgid "Last Updated on"
-msgstr "Ultimo Aggiornamento il"
+msgstr "Ultimo aggiornamento il"
 
 #. module: account_payment_return_import
 #: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__match_after_import
@@ -199,19 +200,19 @@ msgid "Raw Import Data"
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:190
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "The account of this payment return is linked to another journal."
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:158
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "This file doesn't contain any payment return."
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:164
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "This file doesn't contain any transaction."
 msgstr ""
@@ -222,7 +223,7 @@ msgid "XML RAW data stored for debugging/check purposes"
 msgstr ""
 
 #. module: account_payment_return_import
-#: code:addons/account_payment_return_import/wizard/payment_return_import.py:119
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
 #, python-format
 msgid "You have already imported this file."
 msgstr ""
